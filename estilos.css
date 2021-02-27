@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    width: 70%;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+.article{
+    background: lightgray;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+header{
+    background:lightskyblue;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+}
+
+#content{
+    float: left;
+    width: calc(100% - 80px);
+    background: white;
+    min-height: 500px;
+    padding: 40px;
+    border: 1px solid black;
+}
